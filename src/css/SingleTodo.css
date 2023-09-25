@@ -1,0 +1,50 @@
+.singleTodo {
+    background-color: rgb(255, 198, 54);
+    padding: 5px 20px;
+    width: 45%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.3s ease-in-out;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+.singleTodo:hover {
+cursor: pointer;
+ background-color:rgb(255, 198, 130);
+}
+.editableInput {
+    height: inherit;
+    background-color: inherit;
+    font-size: 32px;
+    color:rgb(71, 120, 255);
+    font-family: inherit;
+}
+.title_done {
+    text-decoration: line-through;
+}
+.title_not {
+    text-decoration: none;
+}
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+.icons .edit,.delete,.done {
+    font-size: larger;
+}
+.icons .edit:hover,
+.delete:hover,
+.done:hover {
+  color: rgb(71, 120, 255);
+}
