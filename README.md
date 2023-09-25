@@ -1,5 +1,6 @@
 # Todo App 
 ## React TypeScript
+- Todo List -> which you can Add , Edit , Delete , Done (using useState)
 
 ## Start Project 
 ```bash
